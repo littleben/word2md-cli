@@ -1,0 +1,33 @@
+{
+  "name": "word2md-cli",
+  "version": "0.1.0",
+  "description": "Convert .docx to Markdown with optional image OCR (PaddleX).",
+  "bin": {
+    "word2md": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/cli.ts",
+    "prepublishOnly": "pnpm build"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "mammoth": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": ["docx", "markdown", "word", "convert", "ocr", "cli"],
+  "license": "MIT"
+}
