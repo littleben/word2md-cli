@@ -29,5 +29,14 @@
     "typescript": "^5.6.0"
   },
   "keywords": ["docx", "markdown", "word", "convert", "ocr", "cli"],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littleben/word2md-cli.git"
+  },
+  "homepage": "https://github.com/littleben/word2md-cli#readme",
+  "bugs": {
+    "url": "https://github.com/littleben/word2md-cli/issues"
+  },
+  "author": "littleben"
 }

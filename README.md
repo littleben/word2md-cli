@@ -1,6 +1,11 @@
-# word2md
+# word2md-cli
+
+[![npm](https://img.shields.io/npm/v/word2md-cli.svg)](https://www.npmjs.com/package/word2md-cli)
+[![license](https://img.shields.io/npm/l/word2md-cli.svg)](LICENSE)
 
 Convert `.docx` files to Markdown from the command line. Optional image OCR via PaddleX.
+
+> Web version: [word2md.net](https://word2md.net) — drag & drop in browser, no install needed.
 
 ## Install
 
